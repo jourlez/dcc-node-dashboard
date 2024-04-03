@@ -1,11 +1,11 @@
 <?php
 /**
- * Create WordPress Plugin Tests: Example Unit Test
+ * DCC Node Dashboard Tests: Example Unit Test
  *
- * @package create-wordpress-plugin
+ * @package dcc-node-dashboard
  */
 
-namespace Create_WordPress_Plugin\Tests\Unit;
+namespace DCC_Node_Dashboard\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 

@@ -2,10 +2,10 @@
 /**
  * Class to manage plugin features.
  *
- * @package create-wordpress-plugin
+ * @package dcc-node-dashboard
  */
 
-namespace Create_WordPress_Plugin;
+namespace DCC_Node_Dashboard;
 
 use Alley\WP\Types\Feature;
 

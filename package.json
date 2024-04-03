@@ -1,7 +1,7 @@
 {
-  "name": "create-wordpress-plugin",
+  "name": "dcc-node-dashboard",
   "license": "GPL-2.0-or-later",
-  "main": "plugin.php",
+  "main": "main.php",
   "engines": {
     "node": "20",
     "npm": "10"
@@ -12,9 +12,9 @@
   ],
   "scripts": {
     "build": "alley-build build",
-    "create-block": "npx @alleyinteractive/create-block@latest -n create-wordpress-plugin",
-    "create-entry": "npx @alleyinteractive/create-entry@latest -n create-wordpress-plugin -t create-wordpress-plugin",
-    "create-slotfill": "npx @alleyinteractive/create-entry -s -n create-wordpress-plugin -t create-wordpress-plugin",
+    "create-block": "npx @decentralchain/create-block@latest -n dcc-node-dashboard",
+    "create-entry": "npx @decentralchain/create-entry@latest -n dcc-node-dashboard -t dcc-node-dashboard",
+    "create-slotfill": "npx @decentralchain/create-entry -s -n dcc-node-dashboard -t dcc-node-dashboard",
     "precheck-types": "check-node-version --package",
     "check-types": "tsc",
     "lint:fix": "eslint --ext .jsx --ext .js --ext .ts --ext .tsx . --fix",
@@ -31,7 +31,7 @@
     "pretest:watch": "check-node-version --package",
     "pretest": "check-node-version --package",
     "prerelease": "check-node-version --package",
-    "release": "npx @alleyinteractive/create-release@latest",
+    "release": "npx @decentralchain/create-release@latest",
     "start": "alley-build start",
     "start:hot": "alley-build start --hot",
     "stylelint:fix": "stylelint --fix \"**/*.scss\"",
@@ -40,7 +40,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "@alleyinteractive/block-editor-tools": "^0.8.0",
+    "@decentralchain/block-editor-tools": "^0.8.0",
     "@wordpress/block-editor": "^12.10.14",
     "@wordpress/blocks": "^12.19.13",
     "@wordpress/components": "^25.8.14",
@@ -54,10 +54,10 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@alleyinteractive/build-tool": "^0.1.4",
-    "@alleyinteractive/create-entry": "^0.0.4",
-    "@alleyinteractive/eslint-config": "^0.1.6",
-    "@alleyinteractive/stylelint-config": "^0.0.2",
+    "@decentralchain/build-tool": "^0.1.4",
+    "@decentralchain/create-entry": "^0.0.4",
+    "@decentralchain/eslint-config": "^0.1.6",
+    "@decentralchain/stylelint-config": "^0.0.2",
     "@babel/preset-env": "^7.24.3",
     "@types/jest": "^29.5.12",
     "@types/wordpress__block-editor": "^11.5.11",

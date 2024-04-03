@@ -1,13 +1,13 @@
 <?php
 /**
- * Create WordPress Plugin Tests: Example Feature Test
+ * DCC Node Dashboard Tests: Example Feature Test
  *
- * @package create-wordpress-plugin
+ * @package dcc-node-dashboard
  */
 
-namespace Create_WordPress_Plugin\Tests\Feature;
+namespace DCC_Node_Dashboard\Tests\Feature;
 
-use Create_WordPress_Plugin\Tests\TestCase;
+use DCC_Node_Dashboard\Tests\TestCase;
 
 /**
  * A test suite for an example feature.

@@ -26,7 +26,7 @@ entries/
 ```
 
 ## Create a new entry point or slotfill
-The [`create-entry`](https://github.com/alleyinteractive/alley-scripts/tree/main/packages/create-entry#create-entry-point) command can be used to create a new entry point directory. The command will prompt for the name of the entry point and will create the directory and files needed for the entry point to work.
+The [`create-entry`](https://github.com/decentralchain/alley-scripts/tree/main/packages/create-entry#create-entry-point) command can be used to create a new entry point directory. The command will prompt for the name of the entry point and will create the directory and files needed for the entry point to work.
 
 This project already includes the necessary scripts to create a new entry point and slotfill. To create a new entry point, run the following command:
 
@@ -40,8 +40,8 @@ npm run create-slotfill
 
 Each of these commands will prompt for the name of the entry point and will create the directory and files needed for the entry point or slotfill to work. Run the build command to build the new entry points or slotfills.
 
-Read more about the `create-entry` command [here](https://github.com/alleyinteractive/alley-scripts/tree/main/packages/create-entry#create-entry-point) or run the command with the `--help` flag for more information.
+Read more about the `create-entry` command [here](https://github.com/decentralchain/alley-scripts/tree/main/packages/create-entry#create-entry-point) or run the command with the `--help` flag for more information.
 
 ```bash
-npx @alleyinteractive/create-entry -h
+npx @decentralchain/create-entry -h
 ```

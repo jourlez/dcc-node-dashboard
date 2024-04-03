@@ -11,7 +11,7 @@ on:
 
 jobs:
   node-tests:
-    uses: alleyinteractive/.github/.github/workflows/node-tests.yml@main
+    uses: decentralchain/.github/.github/workflows/node-tests.yml@main
     with:
       node: 20
       run-audit: true

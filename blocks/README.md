@@ -2,7 +2,7 @@
 
 Custom blocks in this directory can be created by running the `create-block` script. For understanding how blocks are architected, built, and enqueued refer to the [Block Editor Handbook | Anatomy of a Block](https://developer.wordpress.org/block-editor/getting-started/create-block/block-anatomy/).
 
-## Scaffold a dynamic block with `@alleyinteractive/create-block`
+## Scaffold a dynamic block with `@decentralchain/create-block`
 
 1. In the root directory run `npm run create-block`
 2. Choose whether to create a block in TypeScript or JavaScript.
@@ -10,7 +10,7 @@ Custom blocks in this directory can be created by running the `create-block` scr
 
 The `create-block` script will create the block files in a the block directory using the `slug` field entered from the prompts when scaffolding the block.
 
-The script uses the [@alleyinteractive/create-block](https://github.com/alleyinteractive/alley-scripts/tree/main/packages/create-block) script with the `--namespace` flag for scaffolding block files with the plugin namespace of `create-wordpress-plugin`. See the `create-block` script in `package.json`.
+The script uses the [@decentralchain/create-block](https://github.com/decentralchain/alley-scripts/tree/main/packages/create-block) script with the `--namespace` flag for scaffolding block files with the plugin namespace of `dcc-node-dashboard`. See the `create-block` script in `package.json`.
 
 For **dynmanic blocks** the following files will be generated:
 

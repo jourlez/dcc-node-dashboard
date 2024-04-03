@@ -1,7 +1,7 @@
 {
   "core_term_meta": true,
-  "domain": "create-wordpress-plugin",
+  "domain": "dcc-node-dashboard",
   "folder": "src",
-  "namespace": "Create_WordPress_Plugin",
+  "namespace": "DCC_Node_Dashboard",
   "require_path": "__DIR__"
 }

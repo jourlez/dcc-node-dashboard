@@ -1,16 +1,16 @@
 <?php
 /**
- * Create WordPress Plugin Tests: Base Test Class
+ * DCC Node Dashboard Tests: Base Test Class
  *
- * @package create-wordpress-plugin
+ * @package dcc-node-dashboard
  */
 
-namespace Create_WordPress_Plugin\Tests;
+namespace DCC_Node_Dashboard\Tests;
 
 use Mantle\Testkit\Test_Case as TestkitTest_Case;
 
 /**
- * Create WordPress Plugin Base Test Case
+ * DCC Node Dashboard Base Test Case
  */
 abstract class TestCase extends TestkitTest_Case {
 

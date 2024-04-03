@@ -1,5 +1,5 @@
 {
-  "extends": ["@alleyinteractive/eslint-config/typescript-react"],
+  "extends": ["@decentralchain/eslint-config/typescript-react"],
   "parserOptions": {
     "project": "./tsconfig.eslint.json"
   }
